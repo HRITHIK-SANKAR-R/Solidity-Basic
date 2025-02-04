@@ -1,0 +1,172 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					}
+				],
+				"name": "Personel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dict",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favnum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "ngakootam",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nigga1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favnum",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AddfiveStorage.sol": "AddfiveStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AddfiveStorage.sol": {
+			"keccak256": "0x4e099f5da3fd7c8de627d2264bda0f0e7b182657f4fd9b4be655bf634abf852f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d2a4258837c0682ae933167c3e9279a9960fe19bcce27ec4e0d3ac25263fb07f",
+				"dweb:/ipfs/QmVtupHsGGUEurjkySdwoFrdphQ33Pm5Yi6ejM37r4B2hp"
+			]
+		},
+		"SimpleStorage.sol": {
+			"keccak256": "0x7f5abdd9d2c9cfe3241beca30a23c328aea3939f3177900a964aee8881d369c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6782445668e263c5afc4b414de207528d3e1cc298c08e78a36b8739d86aa8f69",
+				"dweb:/ipfs/QmU3U9dP5meivt324tuRH6hjz4xT9kX1T8mB7i3oESQYzz"
+			]
+		}
+	},
+	"version": 1
+}
